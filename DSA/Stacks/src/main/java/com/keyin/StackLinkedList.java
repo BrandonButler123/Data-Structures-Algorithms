@@ -42,9 +42,9 @@ public class StackLinkedList {
     public int pop() {
         if (isEmpty()) {
             System.out.println("Stack is empty");
-            return -1; // Return an invalid value indicating stack is empty
+            return -1;
         } else {
-            return list.removeFirst(); // Remove from the head of the linked list
+            return list.removeFirst();
         }
     }
 
@@ -52,9 +52,9 @@ public class StackLinkedList {
     public int peek() {
         if (isEmpty()) {
             System.out.println("Stack is empty");
-            return -1; // Return an invalid value indicating stack is empty
+            return -1;
         } else {
-            return list.getFirst(); // Get the element at the head of the linked list
+            return list.getFirst();
         }
     }
 
